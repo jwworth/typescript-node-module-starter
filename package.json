@@ -1,0 +1,42 @@
+{
+  "name": "typescript-node-module-starter",
+  "version": "0.0.1",
+  "description": "Kick off a new Node module, with TypeScript and Jest included",
+  "author": "Jake Worth <jake@jakeworth.com>",
+  "main": "src/index.js",
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "typescript",
+    "jest",
+    "starter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jwworth/typescript-node-module-starter.git"
+  },
+  "scripts": {
+    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
+    "test": "jest",
+    "build": "tsc"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "\\.(ts|tsx)$": "ts-jest"
+    },
+    "testRegex": "/__tests__/.*\\.(ts|tsx|js)$"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.12",
+    "awesome-typescript-loader": "^5.2.1",
+    "jest": "^23.6.0",
+    "source-map-loader": "^0.2.4",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.2"
+  }
+}
