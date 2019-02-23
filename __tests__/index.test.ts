@@ -1,5 +1,5 @@
-import { exampleFunction } from "../src/index";
+import { exampleFunction } from '../src/index';
 
-test("exampleFunction", () => {
-  expect(exampleFunction()).toMatch("Your code here!");
+test('exampleFunction/1', () => {
+  expect(exampleFunction('Jake')).toMatch('Hello, Jake!');
 });

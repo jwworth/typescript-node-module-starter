@@ -1,3 +1,3 @@
-export const exampleFunction = (): string => {
-  return "Your code here!";
+export const exampleFunction = (name: string): string => {
+  return `Hello, ${name}!`;
 };
