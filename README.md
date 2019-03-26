@@ -1,5 +1,7 @@
 # typescript-node-module-starter 🚀
 
+[![CircleCI](https://circleci.com/gh/jwworth/typescript-node-module-starter.svg?style=svg)](https://circleci.com/gh/jwworth/typescript-node-module-starter)
+
 Kick off a new Node module, with TypeScript and Jest included.
 
 ### Usage
