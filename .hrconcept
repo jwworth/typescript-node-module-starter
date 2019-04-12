@@ -1,0 +1,4 @@
+name: typescript-node-module-starter
+url: https://github.com/jwworth/typescript-node-module-starter
+description: |
+  Kick off a new Node module, with TypeScript and Jest included.
